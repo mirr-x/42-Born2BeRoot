@@ -90,3 +90,9 @@ The Master Boot Record (MBR) is a special type of boot sector located at the beg
 
 - [Master Boot Record (MBR)](https://denim-bosworth-b13.notion.site/7_MBR-2c6e6e3c12ea801bac8afb16a77fa7b0?pvs=74)
 
+##### GUID Partition Table (GPT)
+
+The GUID Partition Table (GPT) is a modern partitioning scheme that overcomes the limitations of MBR. It allows for larger disk sizes and more partitions.
+
+- [GUID Partition Table (GPT)](https://denim-bosworth-b13.notion.site/8_GPT-2c6e6e3c12ea80f3b4f5e4f4e6c8e2d3?pvs=74)
+
