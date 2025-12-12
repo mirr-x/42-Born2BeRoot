@@ -96,3 +96,8 @@ The GUID Partition Table (GPT) is a modern partitioning scheme that overcomes th
 
 - [GUID Partition Table (GPT)](https://denim-bosworth-b13.notion.site/8_GPT-2c6e6e3c12ea80f3b4f5e4f4e6c8e2d3?pvs=74)
 
+##### Boot Sector
+
+The boot sector is a critical area on a disk that contains the necessary code to start the boot process of an operating system. It is typically located at the beginning of a partition.
+
+- [Boot Sector Explained](https://denim-bosworth-b13.notion.site/9_Boot-Sector-2c6e6e3c12ea80809489dd515a0a7c53?pvs=74)
