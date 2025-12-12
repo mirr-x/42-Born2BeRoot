@@ -84,3 +84,9 @@ File systems are essential for organizing and managing data on a disk. This sect
 
 Certain areas on a disk are reserved for specific purposes, such as boot sectors and file allocation tables. This section will cover these special areas and their significance.
 
+##### Master Boot Record (MBR)
+
+The Master Boot Record (MBR) is a special type of boot sector located at the beginning of a storage device. It contains information about how the disk is partitioned and serves as a loader for the operating system.
+
+- [Master Boot Record (MBR)](https://denim-bosworth-b13.notion.site/7_MBR-2c6e6e3c12ea801bac8afb16a77fa7b0?pvs=74)
+
