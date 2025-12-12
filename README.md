@@ -101,3 +101,10 @@ The GUID Partition Table (GPT) is a modern partitioning scheme that overcomes th
 The boot sector is a critical area on a disk that contains the necessary code to start the boot process of an operating system. It is typically located at the beginning of a partition.
 
 - [Boot Sector Explained](https://denim-bosworth-b13.notion.site/9_Boot-Sector-2c6e6e3c12ea80809489dd515a0a7c53?pvs=74)
+
+##### File Allocation Table (FAT)
+
+The File Allocation Table (FAT) is a file system architecture that uses a table to keep track of the locations of files on a disk. It is commonly used in removable storage devices.
+
+
+```
