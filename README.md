@@ -140,6 +140,14 @@ Booting from a GPT disk involves a different process compared to MBR disks, util
 
 - [What Happens When You Partition a GPT Disk](https://denim-bosworth-b13.notion.site/13_What-Happens-When-You-Partition-a-GPT-Disk-2c7e6e3c12ea80bf8412c362466ab588?pvs=74)
 
+#### Logical Volume Management (LVM)
+
+Logical Volume Management (LVM) is a method of allocating space on mass-storage devices that is more flexible than traditional partitioning schemes. This section will cover the basics of LVM, including its components and how to use it.
+
+##### WHY use LVM AND NOT STICK WITH GPT
+
+- [WHY use LVM AND NOT STICK WITH GPT](https://denim-bosworth-b13.notion.site/15_-WHY-use-LVM-AND-NOT-STICK-WITH-GPT-2c7e6e3c12ea8056bd2fd4b786280f92?pvs=74)
+
 ### 
 
 
