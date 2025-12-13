@@ -102,7 +102,26 @@ The boot sector is a critical area on a disk that contains the necessary code to
 
 - [Boot Sector Explained](https://denim-bosworth-b13.notion.site/9_Boot-Sector-2c6e6e3c12ea80809489dd515a0a7c53?pvs=74)
 
+##### VBR (Volume Boot Record) LBA 0 OF os Partition  on MBR Disk
 
+The Volume Boot Record (VBR) is a boot sector located at the beginning of a volume that contains information about the file system and the necessary code to start the boot process for that volume.
+
+- [VBR (Volume Boot Record)](https://denim-bosworth-b13.notion.site/10-5_VBR-Volume-Boot-Record-on-MBR-2c8e6e3c12ea80d3a379cbc679876d39?pvs=74)
+
+##### ESP (EFI System Partition) LBA 0 OF os Partition on GPT Disk
+
+The EFI System Partition (ESP) is a special partition on a GPT disk that contains the files necessary for the UEFI firmware to boot the operating system.
+
+- [ESP (EFI System Partition)](https://denim-bosworth-b13.notion.site/10-6_ESP-EFI-System-Partition-on-GPT-2c8e6e3c12ea80d5b96bc2a9e60fe16f?pvs=74)
+
+##### File Allocation Table (FAT)
+
+The File Allocation Table (FAT) is a file system architecture that uses a table to keep track of the locations of files on a disk. It is commonly used in removable storage devices.
+
+- [File Allocation Table (FAT)](https://denim-bosworth-b13.notion.site/14_FAT_TABLE-2c7e6e3c12ea80cc8db5fc71432e531b?pvs=74)
+
+
+### 
 
 
 ```
