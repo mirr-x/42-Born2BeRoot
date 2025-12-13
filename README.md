@@ -132,6 +132,10 @@ Booting from a GPT disk involves a different process compared to MBR disks, util
 
 - [Booting Process for GPT Disks](https://denim-bosworth-b13.notion.site/11_booting_steps_for_MBR_DISK-2c6e6e3c12ea80ff8aaae3b583c5f39f)
 
+##### FAT and EFI/UEFI and ESP WARM’UP
+
+- [FAT and EFI/UEFI and ESP WARM’UP](https://denim-bosworth-b13.notion.site/12_-FAT-and-EFI-UEFI-and-ESP-WARM-UP-2c6e6e3c12ea80d5b96bc2a9e60fe16f)
+
 
 ### 
 
