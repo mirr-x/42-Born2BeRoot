@@ -136,6 +136,9 @@ Booting from a GPT disk involves a different process compared to MBR disks, util
 
 - [FAT and EFI/UEFI and ESP WARM’UP](https://denim-bosworth-b13.notion.site/12_-FAT-and-EFI-UEFI-and-ESP-WARM-UP-2c6e6e3c12ea80d5b96bc2a9e60fe16f)
 
+##### What Happens When You Partition a GPT Disk
+
+- [What Happens When You Partition a GPT Disk](https://denim-bosworth-b13.notion.site/13_What-Happens-When-You-Partition-a-GPT-Disk-2c7e6e3c12ea80bf8412c362466ab588?pvs=74)
 
 ### 
 
