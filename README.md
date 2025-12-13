@@ -126,6 +126,12 @@ Booting from an MBR disk involves several steps, starting from the BIOS/UEFI ini
 
 - [Booting Process for MBR Disks](https://denim-bosworth-b13.notion.site/10_booting_steps_for_MBR_DISK-2c6e6e3c12ea804c8c01fe890645039d)
 
+##### Booting Process for GPT Disks
+
+Booting from a GPT disk involves a different process compared to MBR disks, utilizing UEFI firmware for initialization and loading the operating system.
+
+- [Booting Process for GPT Disks](https://denim-bosworth-b13.notion.site/11_booting_steps_for_MBR_DISK-2c6e6e3c12ea80ff8aaae3b583c5f39f)
+
 
 ### 
 
