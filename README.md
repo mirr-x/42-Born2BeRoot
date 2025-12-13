@@ -120,6 +120,12 @@ The File Allocation Table (FAT) is a file system architecture that uses a table 
 
 - [File Allocation Table (FAT)](https://denim-bosworth-b13.notion.site/14_FAT_TABLE-2c7e6e3c12ea80cc8db5fc71432e531b?pvs=74)
 
+##### Booting Process for MBR Disks
+
+Booting from an MBR disk involves several steps, starting from the BIOS/UEFI initialization to loading the operating system kernel.
+
+- [Booting Process for MBR Disks](https://denim-bosworth-b13.notion.site/10_booting_steps_for_MBR_DISK-2c6e6e3c12ea804c8c01fe890645039d)
+
 
 ### 
 
