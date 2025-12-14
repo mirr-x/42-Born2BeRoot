@@ -158,3 +158,17 @@ LVM layout creation in Ubuntu explained in detail.
 
 - [17_EXACTLY how Ubuntu creates the LVM layout byte by byte](https://denim-bosworth-b13.notion.site/17_EXACTLY-how-Ubuntu-creates-the-LVM-layout-byte-by-byte-2c7e6e3c12ea80d0b6efd5f5db9bc3c9?pvs=74)
 
+### Firewall
+
+#### What u must have before start learning firewall?
+
+- [What u must have before start learning firewall?](https://denim-bosworth-b13.notion.site/18_What-u-must-have-before-start-learning-firewall-2c8e6e3c12ea805e9ecfd2257c251e2b?pvs=74)
+
+#### UFW introduction
+
+- [UFW introduction](https://denim-bosworth-b13.notion.site/19_firewall-introduction-2c8e6e3c12ea806f90e8f1c8fd118c46?pvs=74)
+
+#### UFW basic commands tutorial
+
+- [UFW basic commands](https://denim-bosworth-b13.notion.site/20_basic-firwal-cmd-tutorial-2c8e6e3c12ea80539da9c4f2dda51165?pvs=74)
+
