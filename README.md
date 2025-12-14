@@ -204,3 +204,9 @@ Broadcasting messages to all users on a system can be done using the `wall` comm
 
 - [Broadcasting with wall](https://denim-bosworth-b13.notion.site/26_Broadcasting-with-wall-2c8e6e3c12ea8061a2e3da26e30a5b70?pvs=74)
 
+### Linux Users and Groups
+
+Managing users and groups is a fundamental aspect of Linux system administration. This section will cover the basics of user and group management.
+
+- [Linux Users and Groups Basics](https://denim-bosworth-b13.notion.site/27_Linux-Users-and-Groups-Basics-2c8e6e3c12ea8080a7b3debe9320eecd?pvs=74)
+
