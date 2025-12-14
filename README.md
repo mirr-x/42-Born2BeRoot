@@ -148,7 +148,7 @@ Logical Volume Management (LVM) is a method of allocating space on mass-storage 
 
 - [WHY use LVM AND NOT STICK WITH GPT](https://denim-bosworth-b13.notion.site/15_-WHY-use-LVM-AND-NOT-STICK-WITH-GPT-2c7e6e3c12ea8056bd2fd4b786280f92?pvs=74)
 
-### 
+##### LVM how it works
 
+- [LVM how it works](https://denim-bosworth-b13.notion.site/16_-LVM-how-it-works-2c7e6e3c12ea805b8610ff9c4e8ddec8?pvs=74)
 
-```
