@@ -179,3 +179,15 @@ LVM layout creation in Ubuntu explained in detail.
 #### SSH CONFIGURATION server side and client side
 
 - [SSH CONFIGURATION server side and client side](https://denim-bosworth-b13.notion.site/22_SSH-CONFIGURATION-server-side-and-client-side-2c8e6e3c12ea80458429f3cfbbca074f?pvs=74)
+
+### Password Policy
+
+Password policies are essential for maintaining the security of user accounts on a system. This section will cover the basics of password policies, including how to implement them on Linux systems.
+
+- [Password Policy Basics](https://denim-bosworth-b13.notion.site/23_Password-Policy-Basics-2c8e6e3c12ea80248b0fc9c1e25f20b3?pvs=74)
+
+### Sudo Configuration
+
+Sudo is a powerful tool that allows users to execute commands with elevated privileges. This section will cover the basics of sudo configuration, including how to set it up securely.
+
+- [Sudo Configuration Basics](https://denim-bosworth-b13.notion.site/24_Sudo-Configuration-2c8e6e3c12ea80bc875bcd23a6a5d589?pvs=74)
