@@ -200,3 +200,4 @@ System administration tools are essential for managing and monitoring Linux syst
 
 ### Broadcasting with wall
 
+Broadcasting messages to all users on a system can be done using the `wall` command. This section will cover how to use the `wall` command effectively.
