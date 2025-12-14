@@ -191,3 +191,9 @@ Password policies are essential for maintaining the security of user accounts on
 Sudo is a powerful tool that allows users to execute commands with elevated privileges. This section will cover the basics of sudo configuration, including how to set it up securely.
 
 - [Sudo Configuration Basics](https://denim-bosworth-b13.notion.site/24_Sudo-Configuration-2c8e6e3c12ea80bc875bcd23a6a5d589?pvs=74)
+
+### Sys Admin TOOLS
+
+System administration tools are essential for managing and monitoring Linux systems. This section will cover some of the most commonly used tools for system administration.
+
+- [Sys Admin TOOLS Overview](https://denim-bosworth-b13.notion.site/25_System-Administration-Tools_USFULLLL-TOOLSSSS-2c8e6e3c12ea801baf51cdc7f3992fba?pvs=74)
