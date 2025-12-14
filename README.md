@@ -197,3 +197,6 @@ Sudo is a powerful tool that allows users to execute commands with elevated priv
 System administration tools are essential for managing and monitoring Linux systems. This section will cover some of the most commonly used tools for system administration.
 
 - [Sys Admin TOOLS Overview](https://denim-bosworth-b13.notion.site/25_System-Administration-Tools_USFULLLL-TOOLSSSS-2c8e6e3c12ea801baf51cdc7f3992fba?pvs=74)
+
+### Broadcasting with wall
+
