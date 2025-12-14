@@ -152,3 +152,9 @@ Logical Volume Management (LVM) is a method of allocating space on mass-storage 
 
 - [LVM how it works](https://denim-bosworth-b13.notion.site/16_-LVM-how-it-works-2c7e6e3c12ea805b8610ff9c4e8ddec8?pvs=74)
 
+##### how Ubuntu creates the LVM layout byte by byte
+
+LVM layout creation in Ubuntu explained in detail.
+
+- [17_EXACTLY how Ubuntu creates the LVM layout byte by byte](https://denim-bosworth-b13.notion.site/17_EXACTLY-how-Ubuntu-creates-the-LVM-layout-byte-by-byte-2c7e6e3c12ea80d0b6efd5f5db9bc3c9?pvs=74)
+
