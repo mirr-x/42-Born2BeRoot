@@ -172,3 +172,10 @@ LVM layout creation in Ubuntu explained in detail.
 
 - [UFW basic commands](https://denim-bosworth-b13.notion.site/20_basic-firwal-cmd-tutorial-2c8e6e3c12ea80539da9c4f2dda51165?pvs=74)
 
+### SSH HOW IT WORKS
+
+- [HOW IT WORKS](https://denim-bosworth-b13.notion.site/21_how-ssh-works-2c3e6e3c12ea80e5ac18ff2230d5cf86?pvs=74)
+
+#### SSH CONFIGURATION server side and client side
+
+- [SSH CONFIGURATION server side and client side](https://denim-bosworth-b13.notion.site/22_SSH-CONFIGURATION-server-side-and-client-side-2c8e6e3c12ea80458429f3cfbbca074f?pvs=74)
