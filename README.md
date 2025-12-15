@@ -210,3 +210,6 @@ Managing users and groups is a fundamental aspect of Linux system administration
 
 - [Linux Users and Groups Basics](https://denim-bosworth-b13.notion.site/27_Linux-Users-and-Groups-Basics-2c8e6e3c12ea8080a7b3debe9320eecd?pvs=74)
 
+### SELinux
+
+Security-Enhanced Linux (SELinux) is a security module that provides a mechanism for supporting access control security policies. This section will cover the basics of SELinux.
