@@ -180,6 +180,11 @@ LVM layout creation in Ubuntu explained in detail.
 
 - [SSH CONFIGURATION server side and client side](https://denim-bosworth-b13.notion.site/22_SSH-CONFIGURATION-server-side-and-client-side-2c8e6e3c12ea80458429f3cfbbca074f?pvs=74)
 
+#### /etc/ssh/sshd_config explained
+
+The `sshd_config` file is the main configuration file for the OpenSSH server. This section will explain the various options available in this file and how to configure them for secure SSH access.
+
+
 ### Password Policy
 
 Password policies are essential for maintaining the security of user accounts on a system. This section will cover the basics of password policies, including how to implement them on Linux systems.
