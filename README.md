@@ -184,6 +184,7 @@ LVM layout creation in Ubuntu explained in detail.
 
 The `sshd_config` file is the main configuration file for the OpenSSH server. This section will explain the various options available in this file and how to configure them for secure SSH access.
 
+- [/etc/ssh/sshd_config explained](https://denim-bosworth-b13.notion.site/etc-ssh-sshd_config-explained-2c8e6e3c12ea80248b0fc9c1e25f20b3?pvs=74)
 
 ### Password Policy
 
