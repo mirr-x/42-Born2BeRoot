@@ -186,6 +186,12 @@ The `sshd_config` file is the main configuration file for the OpenSSH server. Th
 
 - [/etc/ssh/sshd_config explained](https://denim-bosworth-b13.notion.site/etc-ssh-sshd_config-2cbe6e3c12ea806697f9cf764410188d)
 
+#### /etc/ssh/ssh_config explained
+
+The `ssh_config` file is the main configuration file for the OpenSSH client. This section will explain the various options available in this file and how to configure them for secure SSH access.
+
+- [/etc/ssh/ssh_config explained](https://denim-bosworth-b13.notion.site/etc-ssh-ssh_config-2cbe6e3c12ea80f089b1fe36ea29de25?pvs=74)
+
 ### Password Policy
 
 Password policies are essential for maintaining the security of user accounts on a system. This section will cover the basics of password policies, including how to implement them on Linux systems.
