@@ -1,0 +1,123 @@
+*This project has been created as part of the 42 curriculum by amar_tp.*
+
+# Born2beRoot
+
+## Description
+
+Born2beRoot is a system administration project that introduces the fundamentals of virtualization and Linux server configuration.  
+The goal of this project is to set up a secure and stable virtual machine by applying strict rules related to security, user management, services, and monitoring.
+
+The project simulates a real server environment without a graphical interface and focuses on learning how operating systems work at a low level.
+
+---
+
+## Operating System Choice
+
+### Debian (Latest Stable)
+
+I chose **Debian** as the operating system for this project.
+
+**Pros:**
+- Very stable and reliable
+- Excellent documentation
+- Large community support
+- Beginner-friendly for system administration
+
+**Cons:**
+- Older package versions compared to rolling releases
+- Less cutting-edge software
+
+---
+
+## System Configuration & Design Choices
+
+### Virtualization
+- **Tool:** VirtualBox
+- No snapshots used (forbidden by subject)
+
+### Disk & Partitioning
+- Encrypted partitions using **LVM**
+- Logical separation between system and user data for security and scalability
+
+### Security Modules
+- **AppArmor** enabled at startup
+- Strong password policy enforced
+- Firewall enabled and active at boot
+
+### Users & Groups
+- Root user
+- User: `molahrac`
+- Groups:
+  - `sudo`
+  - `user42`
+
+---
+
+## Password Policy
+
+- Password expires every **30 days**
+- Minimum length: **10 characters**
+- Must include:
+  - 1 uppercase letter
+  - 1 lowercase letter
+  - 1 number
+- No more than **3 identical consecutive characters**
+- Must not contain the username
+- Warning displayed **7 days before expiration**
+
+---
+
+## Sudo Configuration
+
+- Maximum **3 authentication attempts**
+- Custom error message on failure
+- All sudo commands logged in `/var/log/sudo/`
+- TTY mode enabled
+- Restricted executable paths
+
+---
+
+## Services
+
+### SSH
+- Port: **4242**
+- Root login disabled
+- Used for remote server administration
+
+### Firewall
+- **UFW** enabled
+- Only port **4242** is open
+
+---
+
+## Monitoring Script
+
+A Bash script named `monitoring.sh` runs at startup and every **10 minutes** using `cron`.  
+It displays system information on all terminals using `wall`.
+
+### Displayed Information
+- OS architecture and kernel version
+- Number of physical CPUs
+- Number of virtual CPUs
+- RAM usage
+- Disk usage
+- CPU load
+- Last reboot time
+- LVM status
+- Active TCP connections
+- Logged-in users
+- IP and MAC address
+- Number of sudo commands executed
+
+---
+
+## Instructions
+
+### Start the Virtual Machine
+1. Open VirtualBox
+2. Start the virtual machine
+3. Log in using your user account
+
+### Connect via SSH
+```bash
+ssh molahrac@127.0.0.1 -p 4242
