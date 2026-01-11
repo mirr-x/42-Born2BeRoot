@@ -1,4 +1,3 @@
-*This project has been created as part of the 42 curriculum by molahrac.*
 
 ```
 ╔════════════════════════════════════════════════════════════════════════════════╗
@@ -15,46 +14,10 @@
 ╚════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<div align="center">
 
-**`[ CLASSIFIED PROJECT - ACCESS GRANTED ]`**
-
-*Developed by: molahrac | 42 Network Curriculum*
-
-[![Debian](https://img.shields.io/badge/Debian-Latest-A81D33?logo=debian&logoColor=white)](https://www.debian.org)
-[![Security](https://img.shields.io/badge/Security-Hardened-success?logo=security&logoColor=white)](/)
-[![Status](https://img.shields.io/badge/Status-Operational-brightgreen)](/)
-
-</div>
 # Born2beRoot
 
 ````markdown
-## Description
-
-Born2beRoot is a system administration project that introduces the fundamentals of virtualization and Linux server configuration. The goal is to set up a secure virtual machine by applying strict rules related to security and user management. The project simulates a real server environment without a graphical interface, focusing on low-level operating system functionality.
-````
-
-## Instructions
-
-````markdown
-### Installation
-- Create a virtual machine using **VirtualBox** (or **UTM**).
-- Install **Debian (latest stable)** without a graphical interface.
-- Configure encrypted partitions with **LVM**.
-- Enable **AppArmor**, **UFW**, and **SSH** (port `4242`).
-- Create user `molahrac` and apply the required password and sudo policies.
-````
-
-### Execution
-
-1. Start the virtual machine from VirtualBox.
-2. Log in locally using your user account.
-3. Connect to the machine via SSH:
-   ```bash
-   ssh molahrac@127.0.0.1 -p 4242
-   ```
-
-4. The `monitoring.sh` script runs automatically at startup and every 10 minutes using `cron`.
 
 ## Resources
 
@@ -88,58 +51,4 @@ The monitoring script displays system information automatically every 10 minutes
 
 ## Project Description
 
-### Operating System Choice
-
-**Debian (latest stable)** was chosen for this project.
-
-**Pros:**
-- Very stable and reliable
-- Excellent documentation
-- Large community support
-- Beginner-friendly for system administration
-
-**Cons:**
-- Software versions are not always the latest
-
----
-
-### Design Choices
-
-- **Partitioning:** Encrypted partitions using LVM to ensure data security and flexibility
-- **Security Policies:** AppArmor enabled at startup, strong password policy applied
-- **User Management:** One regular user (`amar_tp`) with sudo privileges
-- **Services Installed:** SSH (port 4242), UFW firewall, cron for automation
-
----
-
-## Technology Comparisons
-
-### Debian vs Rocky Linux
-- **Debian:** Community-based, stable, AppArmor, APT package manager
-- **Rocky Linux:** Enterprise-focused, SELinux, DNF package manager  
-**Choice:** Debian for simplicity and stability.
-
----
-
-### AppArmor vs SELinux
-
-- **AppArmor:** Path-based, easier to configure, readable profiles
-- **SELinux:** Label-based, very powerful, complex configuration  
-**Choice:** AppArmor for ease of use.
-
----
-
-### UFW vs firewalld
-
-- **UFW:** Simple and easy to manage
-- **firewalld:** Zone-based, dynamic, enterprise-oriented  
-**Choice:** UFW for simplicity.
-
----
-
-### VirtualBox vs UTM
-
-- **VirtualBox:** Cross-platform, widely supported
-- **UTM:** Optimized for Apple Silicon, QEMU-based  
-**Choice:** VirtualBox for compatibility and availability.
 
