@@ -65,7 +65,7 @@ Born2beRoot is a system administration project that introduces the fundamentals 
 
 - **Partitioning:** Encrypted partitions using LVM to ensure data security and flexibility
 - **Security Policies:** AppArmor enabled at startup, strong password policy applied
-- **User Management:** One regular user (`amar_tp`) with sudo privileges
+- **User Management:** One regular user (`molahrac`) with sudo privileges
 - **Services Installed:** SSH (port 4242), UFW firewall, cron for automation
 
 ---
