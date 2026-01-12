@@ -28,12 +28,32 @@ TIME_OF_BOOT=$(who -b | awk '{print $3 " " $4}')
 # CHECK IF SERVER USING LVM
 IS_LVM=$(lsblk | grep -q "lvm" && echo yes || echo no)
 
-wall "
+# NUM OF ESTAB TCP CONECTIONS
+TCP_NUM=$(ss -ta | grep "ESTAB" | wc -l)
+
+# NUM USERS LOG IN who | awk '{print $1}' | sort -u
+USERS_LOG=$(users | tr ' ' '\n' | sort -u | wc -l)
+
+
+# IP V4
+IP4=$(hostname -I | awk '{print $1}')
+
+# MAC ADDRS
+MAC=$(ip link | grep "link/ether" | awk '{print $2}')
+
+# NUM OF CMD USING SUDO
+SUDO_NUM=$(journalctl _COMM=sudo -q | grep COMMAND | wc -l)
+
+echo "
 	Architecture: $INFO
 	CPU physical: $nCPU
 	vCPU: $nLCPU
-	Memory Usage: ${USED_RAM}/$TOTAL_RAM MB ($USED_RAM_PERCENT%)
+	Memory Usage: ${USED_RAM} MB/$TOTAL_RAM MB ($USED_RAM_PERCENT%)
 	Disk Usage: ${USED_DISK}/$TOTAL_DISK ($USED_DISK_PERSENT)
 	CPU load: $CPU_USAGE%
 	Last boot: $TIME_OF_BOOT
-	LVM use: $IS_LVM"
+	LVM use: $IS_LVM
+	Connections TCP: $TCP_NUM
+	User log: $USERS_LOG
+	Network: IP $IP4 ($MAC)
+	Sudo: $SUDO_NUM"
