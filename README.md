@@ -18,21 +18,24 @@
 
 </div>
 
+
 ## Description
 
-Born2beRoot is a system administration project that introduces the fundamentals of virtualization and Linux server configuration. The goal is to set up a secure virtual machine by applying strict rules related to security and user management. The project simulates a real server environment without a graphical interface, focusing on low-level operating system functionality.
-````
+Born2beRoot is a system administration project that introduces the fundamentals of virtualization and Linux server configuration.
+The goal is to set up a secure virtual machine by applying strict rules related to security and user management. The project simulates
+a real server environment without a graphical interface, focusing on low-level operating system functionality.
+
+````markdown
 
 ## Instructions
 
-````markdown
 ### Installation
 - Create a virtual machine using **VirtualBox** (or **UTM**).
 - Install **Debian (latest stable)** without a graphical interface.
 - Configure encrypted partitions with **LVM**.
 - Enable **AppArmor**, **UFW**, and **SSH** (port `4242`).
 - Create user `molahrac` and apply the required password and sudo policies.
-````
+
 
 ### Execution
 
@@ -100,12 +103,10 @@ Born2beRoot is a system administration project that introduces the fundamentals 
 - **VirtualBox:** Cross-platform, widely supported
 - **UTM:** Optimized for Apple Silicon, QEMU-based  
 **Choice:** VirtualBox for compatibility and availability.
+````
 
 
 ## Resources for the Born2BeRoot Project
-
-The following table provides a comprehensive list of resources to help you get started with the **Born2BeRoot** project. These resources cover system setup, security configurations, scripting, and system administration tasks.
-
 | **Topic** | **Resource** | **Description** |
 | --- | --- | --- |
 | **Virtualization with VirtualBox/UTM** | [VirtualBox Documentation](https://www.virtualbox.org/manual/) | Learn how to install and set up VirtualBox and manage virtual machines. |
